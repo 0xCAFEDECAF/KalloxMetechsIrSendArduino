@@ -14,7 +14,7 @@ I only provide the 'Open', 'Close' and 'Stop' codes. There are also codes for '1
 
 You need to install the library '[IRremote](https://github.com/z3t0/Arduino-IRremote)' in the Arduino IDE (menu 'Sketch' --> 'Include Library' --> 'Manage Libraries...' then search for "IRremote", click on it and press the 'Install' button. I tested with version 2.2.3 .
 
-With some very simple adaptations it is possible to upload this sketch to an ESP-based board like [Wemos (LOLIN) D1 mini (Lite)](https://www.wemos.cc/en/latest/d1/index.html) . For that you would need to install the library '[IRremoteESP8266](https://github.com/crankyoldgit/IRremoteESP8266)'.
+With some very simple adaptations it is possible to upload this sketch to an ESP-based board like [Wemos (LOLIN) D1 mini (Lite)](https://www.wemos.cc/en/latest/d1/index.html) . For that you would need to install the library '[IRremoteESP8266](https://github.com/esp8266/Basic/tree/master/libraries/IRremoteESP8266)'; I am using version 1.0.0 but probably a more recent version will work fine.
 
 Have fun with it!
 
