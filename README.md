@@ -12,11 +12,9 @@ These Chinese products are pretty picky about the timing of the IR signals, but 
 
 I only provide the 'Open', 'Close' and 'Stop' codes. There are also codes for '1', '2' ... '8' but I couldn't be bothered to find those, as I do not need them.
 
-You need to install the library '[IRremote](https://github.com/z3t0/Arduino-IRremote)' in the Arduino IDE (menu 'Sketch' --> 'Include Library' --> 'Manage Libraries...' the search for "IRremote", click on it and press the 'Install' button. I tested with
-version 2.2.3 .
+You need to install the library '[IRremote](https://github.com/z3t0/Arduino-IRremote)' in the Arduino IDE (menu 'Sketch' --> 'Include Library' --> 'Manage Libraries...' then search for "IRremote", click on it and press the 'Install' button. I tested with version 2.2.3 .
 
-With some very simple adaptations it is possible to upload this sketch to an ESP-based board like [Wemos (LOLIN) D1
-mini (Lite)](https://www.wemos.cc/en/latest/d1/index.html) . For that you would need to install the library '[IRremoteESP8266](https://github.com/crankyoldgit/IRremoteESP8266)'.
+With some very simple adaptations it is possible to upload this sketch to an ESP-based board like [Wemos (LOLIN) D1 mini (Lite)](https://www.wemos.cc/en/latest/d1/index.html) . For that you would need to install the library '[IRremoteESP8266](https://github.com/crankyoldgit/IRremoteESP8266)'.
 
 Have fun with it!
 
