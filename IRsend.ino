@@ -83,7 +83,7 @@ void loop()
 
         Serial.println("Opening...");
         sendIrCodes(CodesOpen, buffer, n);
-    } // if
+    }
     else if (c == 's')
     {
         const int n = sizeof(CodesStop) / sizeof(CodesStop[0]);
