@@ -49,15 +49,15 @@ void sendIrCodes(unsigned int* pgm_array, unsigned int* buffer, int n)
 {
     for (int i = 0; i < n; i++) buffer[i] = pgm_read_word(&pgm_array[i]);
 
-    digitalWrite(LED_BUILTIN, LOW);  // Turn the LED on
+    digitalWrite(LED_BUILTIN, HIGH);  // Turn the LED on
     irsend.sendRaw(buffer, n, KHZ);
-    digitalWrite(LED_BUILTIN, HIGH);  // Turn the LED off
+    digitalWrite(LED_BUILTIN, LOW);  // Turn the LED off
 } // sendIrCodes
 
 void setup()
 {
     pinMode(LED_BUILTIN, OUTPUT);  // Initialize onboard LED as output 
-    digitalWrite(LED_BUILTIN, HIGH);  // Turn the LED off
+    digitalWrite(LED_BUILTIN, LOW);  // Turn the LED off
 
     Serial.begin(9600);
     Serial.println("<Arduino is ready>");
